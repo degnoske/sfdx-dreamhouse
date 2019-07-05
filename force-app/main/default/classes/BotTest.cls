@@ -14,6 +14,7 @@ public class BotTest {
         BotHandler handler = new HandlerHello();
         BotResponse response = handler.handle('', null, null, null, null);
         System.assert(response.messages[0].messageText == 'Hiasdf there!');
+        System.assertEquals(25,0);
     }
 
     static testMethod void testAddTwoNumbers() {
