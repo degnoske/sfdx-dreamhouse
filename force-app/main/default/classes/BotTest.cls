@@ -13,12 +13,8 @@ public class BotTest {
     static testMethod void testHello() {
         BotHandler handler = new HandlerHello();
         BotResponse response = handler.handle('', null, null, null, null);
-<<<<<<< HEAD
-        System.assert(response.messages[0].messageText == 'Hi there!');
-        System.assertEquals(1,0);
-=======
         System.assert(response.messages[0].messageText == 'Hiasdf there!');
->>>>>>> 79b362aef17c10181d4d5bfd9f5cb1f31e502604
+        System.assertEquals(1,0);
     }
 
     static testMethod void testAddTwoNumbers() {
